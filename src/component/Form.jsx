@@ -20,7 +20,7 @@ function Userform() {
                 value={fname}
                 onChange={(e) => setFname(e.target.value)}
                 />
-                <button onClick={handleSubmit}>Submit</button>
+                <button className='subBtn' onClick={handleSubmit}>Submit</button>
             </form>
         </div>
         </>
